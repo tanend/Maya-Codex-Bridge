@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maya Modeling"
+  short_description: "Safe, staged Maya modeling through the local bridge"
+  default_prompt: "Use $maya-modeling to inspect the selected Maya asset and complete only the authorized modeling stages."

@@ -1,0 +1,20 @@
+# Local caches and environments
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Private local configuration and logs
+.maya_codex_bridge/
+config.json
+.env
+.env.*
+*.log
+
+# Local scene assets and generated exports
+*.ma
+*.mb
+*.fbx
+MayaCodexBridgeExports/

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "maya-codex-bridge": {
+      "command": "python3",
+      "args": ["./mcp/mcp_server.py"],
+      "cwd": "."
+    }
+  }
+}

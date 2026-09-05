@@ -1,0 +1,27 @@
+{
+  "name": "maya-codex-bridge",
+  "version": "0.2.0+codex.20260904140114",
+  "description": "Authenticated, constrained local MCP control for Autodesk Maya 2027 modeling, bind-pose diagnostics, UV, texture, and delivery workflows.",
+  "author": {
+    "name": "MonkeyNote local tools"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Maya Codex Bridge",
+    "shortDescription": "Inspect, model, diagnose skin, unwrap, and texture safely in Maya 2027.",
+    "longDescription": "A local, authenticated bridge between Codex and Maya 2027 for constrained scene inspection, polygon creation, bind-pose diagnostics and guarded repair, UV editing and snapshots, allowlisted file textures, materials, rig-aware assets, skinning, and FBX export. It exposes allowlisted Maya API operations and never sends mouse or keyboard events.",
+    "developerName": "MonkeyNote local tools",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Check Maya status and inspect the selected asset without changing the scene.",
+      "Build a staged Maya model from the selected mesh and report each verified quality check.",
+      "Inspect UVs, assign a local texture, and export a safe UV snapshot.",
+      "Diagnose an FBX bind-pose warning and propose only a guarded, evidence-backed repair."
+    ]
+  }
+}
